@@ -7,7 +7,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "Galan-Lab7-INTPROG": {
+    "ipt-2026-frontend": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "outputPath": "dist/Galan-Lab7-INTPROG",
+            "outputPath": "dist/ipt-2026-frontend",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
@@ -64,10 +64,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Galan-Lab7-INTPROG:build:production"
+              "buildTarget": "ipt-2026-frontend:build:production"
             },
             "development": {
-              "buildTarget": "Galan-Lab7-INTPROG:build:development"
+              "buildTarget": "ipt-2026-frontend:build:development"
             }
           },
           "defaultConfiguration": "development"
